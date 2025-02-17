@@ -3,41 +3,20 @@ import styles from './page.module.css';
 
 export default function Home() {
 	return (
-		<div className={styles.page}>
+		<div className={styles.home}>
 			<main className={styles.main}>
+				{/* <div className={styles.logo}> */}
 				<Image
-					className={styles.logo}
-					src='/Reyne of Color Logo - overlay.png'
-					alt='Reyne of Color logo'
-					width={350}
-					height={180}
-					priority
+					src={'/Reyne of Color Logo - overlay.png'}
+					alt='Reyne of Color Logo'
+					width={500}
+					height={500}
 				/>
-				<h1>Reyne of Color is under construction!</h1>
-				<p>
-					For now comissions are open on my instagram or you can check out my
-					other websites.
-				</p>
-
-				<div className={styles.ctas}>
-					<a
-						className={styles.primary}
-						href='https://reynedrops.ca'
-						target='_blank'
-						rel='noopener noreferrer'
-					>
-						Reyne Drops
-					</a>
-					<a
-						href='https://instagram.com/reyne.of.color'
-						target='_blank'
-						rel='noopener noreferrer'
-						className={styles.secondary}
-					>
-						Instagram
-					</a>
-				</div>
+				{/* </div> */}
 			</main>
+			<div className={styles.heroimage}>
+				<Image src={'/hero.jpg'} alt='hero image' width={500} height={500} />
+			</div>
 		</div>
 	);
 }
