@@ -7,7 +7,7 @@ export default function Home() {
 			<main className={styles.main}>
 				<Image
 					className={styles.logo}
-					src='/Reyne of Color Logo - overlay.png'
+					src='/Reyne-of-Color-Logo.png'
 					alt='Reyne of Color logo'
 					width={350}
 					height={180}
@@ -16,7 +16,7 @@ export default function Home() {
 				<h1>Reyne of Color is under construction!</h1>
 				<p>
 					For now comissions are open on my instagram or you can check out my
-					other websites.
+					other work on reynedrops.
 				</p>
 
 				<div className={styles.ctas}>
