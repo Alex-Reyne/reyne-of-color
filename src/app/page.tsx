@@ -4,18 +4,36 @@ import styles from './page.module.css';
 export default function Home() {
 	return (
 		<div className={styles.home}>
-			<main className={styles.main}>
-				{/* <div className={styles.logo}> */}
-				<Image
-					src={'/Reyne of Color Logo - overlay.png'}
-					alt='Reyne of Color Logo'
-					width={500}
-					height={500}
-				/>
-				{/* </div> */}
-			</main>
-			<div className={styles.heroimage}>
-				<Image src={'/hero.jpg'} alt='hero image' width={500} height={500} />
+			<div className={styles.hero}>
+				<main className={styles.main}>
+					<h1 className={styles.heroHeading}>
+						Magic and Might, <br /> Painted to Life.
+					</h1>
+					<h2 className={styles.heroSubheading}>
+						MINIATURE PAINTING FOR GAMERS, COLLECTORS,
+						<br />
+						WIZARDS, AND WARRIORS.
+					</h2>
+					<button>
+						<a></a>
+					</button>
+					{/* <div className={styles.logo}> */}
+					{/* <Image
+						src={'/Reyne-of-Color-Logo.png'}
+						alt='Reyne of Color Logo'
+						width={500}
+						height={500}
+					/> */}
+					{/* </div> */}
+				</main>
+				<div className={styles.heroImage}>
+					{/* <Image
+						src={'/Nameless-Hero-Hero-Image.jpg'}
+						alt='hero image'
+						width={500}
+						height={500}
+					/> */}
+				</div>
 			</div>
 		</div>
 	);

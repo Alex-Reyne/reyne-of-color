@@ -1,0 +1,65 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border: none;
+}
+
+.button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+/* Sizes */
+.sm {
+	padding: 0.5rem 1.25rem;
+	font-size: 0.875rem;
+}
+
+.md {
+	padding: 0.75rem 2rem;
+	font-size: 1rem;
+}
+
+.lg {
+	padding: 1rem 2.5rem;
+	font-size: 1.125rem;
+}
+
+/* Variants */
+.primary {
+	background: linear-gradient(135deg, #a78bfa 0%, #60a5fa 100%);
+	color: #0f0f0f;
+	box-shadow: 0 4px 20px rgba(167, 139, 250, 0.4);
+}
+
+.primary:hover:not(:disabled) {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 30px rgba(167, 139, 250, 0.6);
+}
+
+.secondary {
+	background: rgba(255, 255, 255, 0.1);
+	color: #ffffff;
+}
+
+.secondary:hover:not(:disabled) {
+	background: rgba(255, 255, 255, 0.2);
+	transform: translateY(-2px);
+}
+
+.outline {
+	background: transparent;
+	color: #ffffff;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.outline:hover:not(:disabled) {
+	border-color: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.05);
+	transform: translateY(-2px);
+}
