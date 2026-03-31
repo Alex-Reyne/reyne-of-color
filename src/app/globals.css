@@ -1,6 +1,65 @@
+/* ============================================
+   COLOR VARIABLES
+   ============================================ */
 :root {
-	--background: #ffffff;
-	--foreground: #171717;
+	/* Primary Colors */
+	--color-primary: #da3e17;
+	--color-primary-hover: #c23515;
+	--color-primary-light: #e85a3a;
+
+	/* Neutral Colors */
+	--color-white: #ffffff;
+	--color-off-white: #f5f5f5;
+	--color-black: #0f0f0f;
+	--color-near-black: #171717;
+
+	/* Overlay Colors */
+	--color-overlay-dark-05: rgba(0, 0, 0, 0.05);
+	--color-overlay-light-05: rgba(255, 255, 255, 0.05);
+	--color-overlay-light-10: rgba(255, 255, 255, 0.1);
+	--color-overlay-light-20: rgba(255, 255, 255, 0.2);
+	--color-overlay-light-30: rgba(255, 255, 255, 0.3);
+	--color-overlay-light-60: rgba(255, 255, 255, 0.6);
+
+	/* Effect Colors */
+	--color-shadow-primary: rgba(255, 74, 74, 0.4);
+	--color-shadow-primary-hover: rgba(255, 74, 74, 0.6);
+
+	/* Accent Colors */
+	--color-accent-teal: teal;
+	--color-accent-red: #ff4a4a;
+
+	/* ============================================
+	   LAYOUT VARIABLES
+	   ============================================ */
+	--border-radius-sm: 0.25rem;
+	--border-radius-md: 0.5rem;
+	--border-radius-lg: 1rem;
+
+	/* ============================================
+	   SHADOW VARIABLES
+	   ============================================ */
+	--shadow-button: 0 4px 20px var(--color-shadow-primary);
+	--shadow-button-hover: 0 8px 30px var(--color-shadow-primary-hover);
+
+	/* ============================================
+	   TRANSITION VARIABLES
+	   ============================================ */
+	--transition-fast: 0.15s ease;
+	--transition-base: 0.3s ease;
+	--transition-slow: 0.5s ease;
+
+	/* ============================================
+	   Z-INDEX VARIABLES
+	   ============================================ */
+	--z-nav: 100;
+	--z-hero: -1;
+
+	/* ============================================
+	   LEGACY / BACKWARDS COMPATIBILITY
+	   ============================================ */
+	--background: var(--color-white);
+	--foreground: var(--color-near-black);
 }
 
 html,

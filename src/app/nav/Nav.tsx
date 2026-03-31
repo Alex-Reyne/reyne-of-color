@@ -1,8 +1,31 @@
+'use client';
+
+import {useState, useEffect, useRef} from 'react';
 import Image from 'next/image';
 import styles from './nav.module.css';
 import Button from '../button/button';
 
 export default function Nav() {
+	const [isVisible, setIsVisible] = useState(true);
+	const lastScrollY = useRef(0);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			const currentScrollY = window.scrollY;
+
+			if (currentScrollY > lastScrollY.current && currentScrollY > 100) {
+				setIsVisible(false);
+			} else {
+				setIsVisible(true);
+			}
+
+			lastScrollY.current = currentScrollY;
+		};
+
+		window.addEventListener('scroll', handleScroll, {passive: true});
+		return () => window.removeEventListener('scroll', handleScroll);
+	}, []);
+
 	const links = [
 		{
 			name: 'Home',
@@ -27,7 +50,9 @@ export default function Nav() {
 	];
 
 	return (
-		<div className={styles.nav}>
+		<div
+			className={`${styles.nav} ${isVisible ? styles.visible : styles.hidden}`}
+		>
 			<div className={styles.navContainer}>
 				<Image
 					className={styles.logo}
@@ -40,7 +65,7 @@ export default function Nav() {
 					{links.map(link => {
 						return (
 							<a className={styles.link} href={link.url} key={link.url}>
-								<button>{link.name}</button>
+								{link.name}
 							</a>
 						);
 					})}

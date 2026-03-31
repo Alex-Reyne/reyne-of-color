@@ -10,13 +10,23 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 100;
+	z-index: var(--z-nav);
 
-	background: rgba(0, 0, 0, 0.05);
+	background: var(--color-overlay-dark-05);
 	backdrop-filter: blur(5px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid var(--color-overlay-light-30);
 
 	font-weight: 900;
+
+	transition: transform 0.3s ease-in-out;
+}
+
+.visible {
+	transform: translateY(0);
+}
+
+.hidden {
+	transform: translateY(-100%);
 }
 
 .navContainer {
@@ -39,11 +49,10 @@
 	width: 70%;
 
 	.link {
-		button {
-			cursor: pointer;
-			&:hover {
-				color: teal;
-			}
+		font-family: var(--font-geist-sans);
+		cursor: pointer;
+		&:hover {
+			color: var(--color-primary);
 		}
 	}
 }
