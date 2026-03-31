@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import Button from './button/button';
 
 export default function Home() {
 	return (
@@ -7,16 +8,15 @@ export default function Home() {
 			<div className={styles.hero}>
 				<main className={styles.main}>
 					<h1 className={styles.heroHeading}>
-						Magic and Might, <br /> Painted to Life.
+						Magic and Might, <br />
+						<div className={styles.heroLineTwo}>Painted to Life.</div>
 					</h1>
 					<h2 className={styles.heroSubheading}>
 						MINIATURE PAINTING FOR GAMERS, COLLECTORS,
 						<br />
 						WIZARDS, AND WARRIORS.
 					</h2>
-					<button>
-						<a></a>
-					</button>
+					<Button variant={'primary'}>REQUEST A COMMISSION</Button>
 					{/* <div className={styles.logo}> */}
 					{/* <Image
 						src={'/Reyne-of-Color-Logo.png'}

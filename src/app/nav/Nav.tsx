@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './nav.module.css';
+import Button from '../button/button';
 
 export default function Nav() {
 	const links = [
@@ -44,6 +45,9 @@ export default function Nav() {
 						);
 					})}
 				</div>
+				<Button variant={'secondary'} size={'sm'}>
+					ENLIST
+				</Button>
 			</div>
 		</div>
 	);
