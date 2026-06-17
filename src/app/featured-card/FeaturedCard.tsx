@@ -1,9 +1,9 @@
-import styles from './gallery-card.module.css';
+import styles from './featured-card.module.css';
 
 type BadgeType = 'first' | 'second' | 'third' | 'featured' | null;
 type ImagePosition = 'top' | 'center' | 'bottom';
 
-interface GalleryCardProps {
+interface FeaturedCardProps {
 	image: string;
 	title: string;
 	description: string;
@@ -13,7 +13,7 @@ interface GalleryCardProps {
 	imagePosition?: ImagePosition;
 }
 
-export default function GalleryCard({
+export default function FeaturedCard({
 	image,
 	title,
 	description,
@@ -21,7 +21,7 @@ export default function GalleryCard({
 	badgeType = null,
 	badgeSubtitle = '',
 	imagePosition = 'center',
-}: GalleryCardProps) {
+}: FeaturedCardProps) {
 	const badgeLabels: Record<string, string> = {
 		first: '1st Place',
 		second: '2nd Place',

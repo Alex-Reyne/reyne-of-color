@@ -55,7 +55,7 @@
 	align-items: center;
 	padding: 6rem 2rem;
 	min-height: 100vh;
-	background: var(--color-near-black);
+	background: var(--color-overlay-dark-08);
 	z-index: 1;
 }
 
@@ -79,6 +79,29 @@
 
 .galleryGrid > * {
 	width: 100%;
+}
+
+.textCardsSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 6rem 2rem;
+	background: var(--color-overlay-dark-05);
+	z-index: 1;
+}
+
+.textCardsGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+	width: 100%;
+	max-width: 1200px;
+	justify-items: center;
+}
+
+.textCardsGrid > * {
+	width: 100%;
+	max-width: 400px;
 }
 
 .logo {
@@ -156,5 +179,11 @@
 		height: 400px;
 		width: auto;
 		/* filter: invert(); */
+	}
+}
+
+@media (max-width: 900px) {
+	.textCardsGrid {
+		grid-template-columns: 1fr;
 	}
 }
