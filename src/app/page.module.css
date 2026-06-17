@@ -536,11 +536,12 @@
 	);
 }
 
-/* Modal image area — responsive to viewport */
+/* Modal image area — responsive to viewport; click to zoom */
 .modalImageWrapper {
 	position: relative;
 	width: min(80vw, min(80vh, 760px));
 	height: min(80vw, min(80vh, 760px));
+	cursor: zoom-in;
 }
 
 .modalImage {
@@ -695,6 +696,77 @@
 	color: #e2c97e;
 }
 
+/* ─── Zoom overlay ──────────────────────────────────────── */
+
+.zoomOverlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(3, 5, 14, 0.92);
+	z-index: 1100;
+	animation: fadeIn 0.2s ease-out;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	/* visual only — container handles all pointer events */
+	pointer-events: none;
+}
+
+.zoomContainer {
+	position: fixed;
+	inset: 0;
+	z-index: 1101;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	animation: fadeIn 0.2s ease-out;
+	/* cursor is set via inline style (grab / grabbing) */
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.zoomImage {
+	/* Fit within viewport at natural aspect ratio, then scaled 1.5× via inline style */
+	max-width: 90vw;
+	max-height: 90vh;
+	object-fit: contain;
+	border-radius: 3px;
+	box-shadow:
+		0 0 80px rgba(45, 22, 85, 0.6),
+		0 30px 60px rgba(0, 0, 0, 0.9);
+	border: 1px solid rgba(226, 201, 126, 0.25);
+	/* let the container capture drag events */
+	pointer-events: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+.zoomCloseBtn {
+	position: fixed;
+	top: 1.25rem;
+	right: 1.25rem;
+	background: rgba(13, 27, 62, 0.9);
+	border: 1px solid rgba(226, 201, 126, 0.5);
+	color: #e2c97e;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+	z-index: 1102;
+	line-height: 1;
+}
+
+.zoomCloseBtn:hover {
+	background: rgba(226, 201, 126, 0.2);
+	border-color: rgba(226, 201, 126, 0.9);
+	transform: scale(1.1);
+	color: #f0dc9e;
+}
+
 /* ─── Back to top ───────────────────────────────────────── */
 
 .backToTop {
@@ -803,6 +875,7 @@
 	.modalImageWrapper {
 		width: min(88vw, min(75vh, 600px));
 		height: min(88vw, min(75vh, 600px));
+		cursor: zoom-in;
 	}
 }
 
