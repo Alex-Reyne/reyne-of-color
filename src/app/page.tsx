@@ -23,6 +23,20 @@ export default function Home() {
 
 	const touchStartX = useRef<number>(0);
 
+	// ── Image prefetching ─────────────────────────────────────────────────────
+	/**
+	 * Kick off browser-level preloading for the given image paths.
+	 * Uses the native Image constructor so the browser fetches + caches each
+	 * file before it is needed in the modal or as the next slide.
+	 */
+	const prefetchImages = useCallback((paths: string[]) => {
+		if (typeof window === 'undefined') return;
+		paths.forEach(src => {
+			const img = new window.Image();
+			img.src = src;
+		});
+	}, []);
+
 	// ── Back-to-top visibility ────────────────────────────────────────────────
 	const [showBackToTop, setShowBackToTop] = useState<boolean>(false);
 
@@ -76,10 +90,16 @@ export default function Home() {
 	// ── Modal helpers ─────────────────────────────────────────────────────────
 	const closeModal = useCallback(() => setModalSet(null), []);
 
-	const openSet = useCallback((set: ImageSet) => {
-		setModalSet(set);
-		setImageIndex(0);
-	}, []);
+	const openSet = useCallback(
+		(set: ImageSet) => {
+			setModalSet(set);
+			setImageIndex(0);
+			// Immediately start loading every image in the set so they are ready
+			// by the time the visitor clicks through the slides.
+			prefetchImages(set.images);
+		},
+		[prefetchImages],
+	);
 
 	// Navigate images within the current set
 	const goToPrevImage = useCallback(() => {
@@ -260,12 +280,16 @@ export default function Home() {
 							key={`${set.category}-${set.name}`}
 							className={styles.galleryItem}
 							onClick={() => openSet(set)}
+							// Prefetch the rest of the set's images on hover so they
+							// are already in the browser cache by the time the modal opens.
+							onMouseEnter={() => prefetchImages(set.images.slice(1))}
 							aria-label={`View ${set.name}`}
 						>
 							<Image
 								src={set.images[0]}
 								alt={set.name}
 								fill
+								loading='lazy'
 								sizes='(max-width: 600px) calc(50vw - 24px), (max-width: 900px) calc(33vw - 24px), calc(25vw - 24px)'
 								className={styles.galleryImage}
 							/>
