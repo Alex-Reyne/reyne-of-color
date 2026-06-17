@@ -233,11 +233,11 @@ export const ALL_SETS: ImageSet[] = [
 		category: 'display-models',
 		price: 100,
 		images: [
-			'/gamecon-images/Misc/Lady-of-the-grove/AMCP4888.jpg',
-			'/gamecon-images/Misc/Lady-of-the-grove/AMCP4889.jpg',
-			'/gamecon-images/Misc/Lady-of-the-grove/AMCP4890.jpg',
-			'/gamecon-images/Misc/Lady-of-the-grove/AMCP4901.jpg',
-			'/gamecon-images/Misc/Lady-of-the-grove/AMCP4902.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4888.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4889.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4890.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4901.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4902.jpg',
 		],
 	},
 	{
@@ -245,9 +245,9 @@ export const ALL_SETS: ImageSet[] = [
 		category: 'display-models',
 		sold: true,
 		images: [
-			'/gamecon-images/Misc/Leafeon/AMCP6241-Enhanced-NR.jpg',
-			'/gamecon-images/Misc/Leafeon/AMCP6238-Enhanced-NR.jpg',
-			'/gamecon-images/Misc/Leafeon/AMCP6239-Enhanced-NR.jpg',
+			'/gamecon-images/display-models/Leafeon/AMCP6241-Enhanced-NR.jpg',
+			'/gamecon-images/display-models/Leafeon/AMCP6238-Enhanced-NR.jpg',
+			'/gamecon-images/display-models/Leafeon/AMCP6239-Enhanced-NR.jpg',
 		],
 	},
 
@@ -408,10 +408,10 @@ export const ALL_SETS: ImageSet[] = [
 		category: 'dnd-minis',
 		price: 75,
 		images: [
-			'/gamecon-images/Misc/Firebender/AMCP6355.jpg',
-			'/gamecon-images/Misc/Firebender/AMCP6342.jpg',
-			'/gamecon-images/Misc/Firebender/AMCP6348.jpg',
-			'/gamecon-images/Misc/Firebender/AMCP6350.jpg',
+			'/gamecon-images/dnd-minis/Firebender/AMCP6355.jpg',
+			'/gamecon-images/dnd-minis/Firebender/AMCP6342.jpg',
+			'/gamecon-images/dnd-minis/Firebender/AMCP6348.jpg',
+			'/gamecon-images/dnd-minis/Firebender/AMCP6350.jpg',
 		],
 	},
 ];
