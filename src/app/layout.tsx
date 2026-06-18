@@ -1,5 +1,6 @@
 import type {Metadata} from 'next';
 import {Metamorphous} from 'next/font/google';
+import {Analytics} from '@vercel/analytics/next';
 import './globals.css';
 
 const metamorphous = Metamorphous({
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={metamorphous.variable}>{children}</body>
+			<body className={metamorphous.variable}>
+				{children}
+				<Analytics />
+			</body>
 		</html>
 	);
 }
