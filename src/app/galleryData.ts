@@ -181,6 +181,46 @@ export const ALL_SETS: ImageSet[] = [
 		],
 	},
 	{
+		name: 'Aloy',
+		category: 'display-models',
+		images: [
+			'/gamecon-images/display-models/Aloy/AMCP3411.jpg',
+			'/gamecon-images/display-models/Aloy/AMCP3412.jpg',
+		],
+	},
+	{
+		name: 'Booette',
+		category: 'display-models',
+		price: 80,
+		images: [
+			'/gamecon-images/display-models/booette/AMCP7297.jpg',
+			'/gamecon-images/display-models/booette/AMCP7299.jpg',
+			'/gamecon-images/display-models/booette/AMCP7300.jpg',
+			'/gamecon-images/display-models/booette/AMCP7303.jpg',
+			'/gamecon-images/display-models/booette/AMCP7308.jpg',
+		],
+	},
+	{
+		name: 'Ghost Captain',
+		category: 'display-models',
+		images: [
+			'/gamecon-images/display-models/Ghost Captain/AMCP3409.jpg',
+			'/gamecon-images/display-models/Ghost Captain/AMCP3410.jpg',
+		],
+	},
+	{
+		name: 'Lady of the Grove',
+		category: 'display-models',
+		price: 100,
+		images: [
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4888.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4889.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4890.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4901.jpg',
+			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4902.jpg',
+		],
+	},
+	{
 		name: 'Lamp Master',
 		category: 'display-models',
 		price: 150,
@@ -190,6 +230,16 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/display-models/LampMaster/AMCP3058.jpg',
 			'/gamecon-images/display-models/LampMaster/AMCP3059.jpg',
 			'/gamecon-images/display-models/LampMaster/AMCP3062.jpg',
+		],
+	},
+	{
+		name: 'Leafeon',
+		category: 'display-models',
+		sold: true,
+		images: [
+			'/gamecon-images/display-models/Leafeon/AMCP6241-Enhanced-NR.jpg',
+			'/gamecon-images/display-models/Leafeon/AMCP6238-Enhanced-NR.jpg',
+			'/gamecon-images/display-models/Leafeon/AMCP6239-Enhanced-NR.jpg',
 		],
 	},
 	{
@@ -206,18 +256,6 @@ export const ALL_SETS: ImageSet[] = [
 		],
 	},
 	{
-		name: 'Booette',
-		category: 'display-models',
-		price: 80,
-		images: [
-			'/gamecon-images/display-models/booette/AMCP7297.jpg',
-			'/gamecon-images/display-models/booette/AMCP7299.jpg',
-			'/gamecon-images/display-models/booette/AMCP7300.jpg',
-			'/gamecon-images/display-models/booette/AMCP7303.jpg',
-			'/gamecon-images/display-models/booette/AMCP7308.jpg',
-		],
-	},
-	{
 		name: 'Spider-Gwen',
 		category: 'display-models',
 		sold: true,
@@ -228,28 +266,6 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/display-models/Spider Gwen/AMCP8809.jpg',
 			'/gamecon-images/display-models/Spider Gwen/AMCP8810.jpg',
 			'/gamecon-images/display-models/Spider Gwen/AMCP8812.jpg',
-		],
-	},
-	{
-		name: 'Lady of the Grove',
-		category: 'display-models',
-		price: 100,
-		images: [
-			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4888.jpg',
-			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4889.jpg',
-			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4890.jpg',
-			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4901.jpg',
-			'/gamecon-images/display-models/Lady-of-the-grove/AMCP4902.jpg',
-		],
-	},
-	{
-		name: 'Leafeon',
-		category: 'display-models',
-		sold: true,
-		images: [
-			'/gamecon-images/display-models/Leafeon/AMCP6241-Enhanced-NR.jpg',
-			'/gamecon-images/display-models/Leafeon/AMCP6238-Enhanced-NR.jpg',
-			'/gamecon-images/display-models/Leafeon/AMCP6239-Enhanced-NR.jpg',
 		],
 	},
 
