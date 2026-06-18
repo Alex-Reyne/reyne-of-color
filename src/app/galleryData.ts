@@ -461,72 +461,72 @@ export const ALL_SETS: ImageSet[] = [
 		name: 'Bulbasaur',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Bulbasaur/AMCP3378.jpg',
 			'/gamecon-images/Keycaps/Bulbasaur/AMCP3397.jpg',
+			'/gamecon-images/Keycaps/Bulbasaur/AMCP3378.jpg',
 		],
 	},
 	{
 		name: 'Charmander',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Charmander/AMCP3377.jpg',
 			'/gamecon-images/Keycaps/Charmander/AMCP3394.jpg',
+			'/gamecon-images/Keycaps/Charmander/AMCP3377.jpg',
 		],
 	},
 	{
 		name: 'Hollow Knight',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Hollow Knight/AMCP3381.jpg',
 			'/gamecon-images/Keycaps/Hollow Knight/AMCP3395.jpg',
+			'/gamecon-images/Keycaps/Hollow Knight/AMCP3381.jpg',
 		],
 	},
 	{
 		name: 'Kirby',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Kirby/AMCP3388.jpg',
 			'/gamecon-images/Keycaps/Kirby/AMCP3389.jpg',
+			'/gamecon-images/Keycaps/Kirby/AMCP3388.jpg',
 		],
 	},
 	{
 		name: 'Luna',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Luna/AMCP3380.jpg',
 			'/gamecon-images/Keycaps/Luna/AMCP3393.jpg',
+			'/gamecon-images/Keycaps/Luna/AMCP3380.jpg',
 		],
 	},
 	{
 		name: 'Meme Dragons',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Meme Dragons/AMCP3387.jpg',
 			'/gamecon-images/Keycaps/Meme Dragons/AMCP3390.jpg',
+			'/gamecon-images/Keycaps/Meme Dragons/AMCP3387.jpg',
 		],
 	},
 	{
 		name: 'Pikachu',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Pikachu/AMCP3384.jpg',
 			'/gamecon-images/Keycaps/Pikachu/AMCP3398.jpg',
+			'/gamecon-images/Keycaps/Pikachu/AMCP3384.jpg',
 		],
 	},
 	{
 		name: 'Squirtle',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Squirtle/AMCP3376.jpg',
 			'/gamecon-images/Keycaps/Squirtle/AMCP3396.jpg',
+			'/gamecon-images/Keycaps/Squirtle/AMCP3376.jpg',
 		],
 	},
 	{
 		name: 'Toothless',
 		category: 'keycaps',
 		images: [
-			'/gamecon-images/Keycaps/Toothless/AMCP3386.jpg',
 			'/gamecon-images/Keycaps/Toothless/AMCP3392.jpg',
+			'/gamecon-images/Keycaps/Toothless/AMCP3386.jpg',
 		],
 	},
 ];
