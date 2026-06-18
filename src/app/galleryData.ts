@@ -24,6 +24,7 @@ export const CATEGORIES: Category[] = [
 	{key: 'dark-souls', label: 'Dark Souls', price: 80},
 	{key: 'display-models', label: 'Display Models', price: 200},
 	{key: 'dnd-minis', label: 'D&D Minis', price: 50},
+	{key: 'keycaps', label: 'Keycaps', price: 50},
 ];
 
 /** Returns the effective display price for a set (model override → category default → undefined). */
@@ -258,11 +259,10 @@ export const ALL_SETS: ImageSet[] = [
 		category: 'dnd-minis',
 		price: 100,
 		images: [
-			'/gamecon-images/dnd-minis/Android Monk/AMCP5671.jpg',
-			'/gamecon-images/dnd-minis/Android Monk/AMCP5672.jpg',
-			'/gamecon-images/dnd-minis/Android Monk/AMCP5673.jpg',
-			'/gamecon-images/dnd-minis/Android Monk/AMCP5674.jpg',
-			'/gamecon-images/dnd-minis/Android Monk/AMCP5675.jpg',
+			'/gamecon-images/dnd-minis/Android Monk/AMCP3402.jpg',
+			'/gamecon-images/dnd-minis/Android Monk/AMCP3403.jpg',
+			'/gamecon-images/dnd-minis/Android Monk/AMCP3404.jpg',
+			'/gamecon-images/dnd-minis/Android Monk/AMCP3405.jpg',
 		],
 	},
 	{
@@ -402,17 +402,131 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Human Witch',
 		category: 'dnd-minis',
-		images: ['/gamecon-images/dnd-minis/Human Witch/AMCP3343.jpg'],
+		images: [
+			'/gamecon-images/dnd-minis/Human Witch/AMCP3343.jpg',
+			'/gamecon-images/dnd-minis/Human Witch/AMCP3344.jpg',
+		],
 	},
 	{
-		name: 'Firebender',
+		name: 'KDM Firebender',
 		category: 'dnd-minis',
 		price: 75,
 		images: [
-			'/gamecon-images/dnd-minis/Firebender/AMCP6355.jpg',
-			'/gamecon-images/dnd-minis/Firebender/AMCP6342.jpg',
-			'/gamecon-images/dnd-minis/Firebender/AMCP6348.jpg',
-			'/gamecon-images/dnd-minis/Firebender/AMCP6350.jpg',
+			'/gamecon-images/dnd-minis/KDM Firebender/AMCP6355.jpg',
+			'/gamecon-images/dnd-minis/KDM Firebender/AMCP6342.jpg',
+			'/gamecon-images/dnd-minis/KDM Firebender/AMCP6348.jpg',
+			'/gamecon-images/dnd-minis/KDM Firebender/AMCP6350.jpg',
+		],
+	},
+	{
+		name: 'KDM Ranger',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3399.jpg',
+			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3400.jpg',
+			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3401.jpg',
+		],
+	},
+	{
+		name: 'Orc Shamman',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5486.jpg',
+			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5488.jpg',
+			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5490.jpg',
+			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5492.jpg',
+			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5497.jpg',
+		],
+	},
+	{
+		name: 'Orc Warpriest',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3064.jpg',
+			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3065.jpg',
+			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3066.jpg',
+		],
+	},
+	{
+		name: 'Tengu Oracle',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Tengu Oracle/AMCP3335.jpg',
+			'/gamecon-images/dnd-minis/Tengu Oracle/AMCP3336.jpg',
+		],
+	},
+
+	// ── Keycaps ─────────────────────────────────────────────────────────────────
+	{
+		name: 'Bulbasaur',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Bulbasaur/AMCP3378.jpg',
+			'/gamecon-images/Keycaps/Bulbasaur/AMCP3397.jpg',
+		],
+	},
+	{
+		name: 'Charmander',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Charmander/AMCP3377.jpg',
+			'/gamecon-images/Keycaps/Charmander/AMCP3394.jpg',
+		],
+	},
+	{
+		name: 'Hollow Knight',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Hollow Knight/AMCP3381.jpg',
+			'/gamecon-images/Keycaps/Hollow Knight/AMCP3395.jpg',
+		],
+	},
+	{
+		name: 'Kirby',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Kirby/AMCP3388.jpg',
+			'/gamecon-images/Keycaps/Kirby/AMCP3389.jpg',
+		],
+	},
+	{
+		name: 'Luna',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Luna/AMCP3380.jpg',
+			'/gamecon-images/Keycaps/Luna/AMCP3393.jpg',
+		],
+	},
+	{
+		name: 'Meme Dragons',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Meme Dragons/AMCP3387.jpg',
+			'/gamecon-images/Keycaps/Meme Dragons/AMCP3390.jpg',
+		],
+	},
+	{
+		name: 'Pikachu',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Pikachu/AMCP3384.jpg',
+			'/gamecon-images/Keycaps/Pikachu/AMCP3398.jpg',
+		],
+	},
+	{
+		name: 'Squirtle',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Squirtle/AMCP3376.jpg',
+			'/gamecon-images/Keycaps/Squirtle/AMCP3396.jpg',
+		],
+	},
+	{
+		name: 'Toothless',
+		category: 'keycaps',
+		images: [
+			'/gamecon-images/Keycaps/Toothless/AMCP3386.jpg',
+			'/gamecon-images/Keycaps/Toothless/AMCP3392.jpg',
 		],
 	},
 ];
