@@ -257,7 +257,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Android Monk',
 		category: 'dnd-minis',
-		price: 100,
+		price: 75,
 		images: [
 			'/gamecon-images/dnd-minis/Android Monk/AMCP3402.jpg',
 			'/gamecon-images/dnd-minis/Android Monk/AMCP3403.jpg',
@@ -421,6 +421,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'KDM Ranger',
 		category: 'dnd-minis',
+		price: 75,
 		images: [
 			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3399.jpg',
 			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3400.jpg',
