@@ -37,6 +37,18 @@ export function getEffectivePrice(set: ImageSet): number | undefined {
 export const ALL_SETS: ImageSet[] = [
 	// ── Competition Models ──────────────────────────────────────────────────────
 	{
+		name: 'Nameless Hero',
+		category: 'competition-models',
+		images: [
+			'/gamecon-images/competition-models/Nameless-Hero/AMCP7753.jpg',
+			'/gamecon-images/competition-models/Nameless-Hero/AMCP7754.jpg',
+			'/gamecon-images/competition-models/Nameless-Hero/AMCP7755.jpg',
+			'/gamecon-images/competition-models/Nameless-Hero/AMCP7756.jpg',
+			'/gamecon-images/competition-models/Nameless-Hero/AMCP7757.jpg',
+			'/gamecon-images/competition-models/Nameless-Hero/AMCP7773.jpg',
+		],
+	},
+	{
 		name: 'Beyond the Wall',
 		category: 'competition-models',
 		images: [
@@ -49,6 +61,16 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/competition-models/Beyond-The-Wall/AMCP9210.jpg',
 			'/gamecon-images/competition-models/Beyond-The-Wall/AMCP9211.jpg',
 			'/gamecon-images/competition-models/Beyond-The-Wall/AMCP9214.jpg',
+		],
+	},
+	{
+		name: 'High Priestess',
+		category: 'competition-models',
+		price: 150,
+		images: [
+			'/gamecon-images/competition-models/High-Priestess/AMCP5554.jpg',
+			'/gamecon-images/competition-models/High-Priestess/AMCP5556.jpg',
+			'/gamecon-images/competition-models/High-Priestess/AMCP5558.jpg',
 		],
 	},
 	{
@@ -72,28 +94,6 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/competition-models/Forever-Mine/AMCP5461.jpg',
 			'/gamecon-images/competition-models/Forever-Mine/AMCP5462.jpg',
 			'/gamecon-images/competition-models/Forever-Mine/AMCP5463.jpg',
-		],
-	},
-	{
-		name: 'High Priestess',
-		category: 'competition-models',
-		price: 150,
-		images: [
-			'/gamecon-images/competition-models/High-Priestess/AMCP5554.jpg',
-			'/gamecon-images/competition-models/High-Priestess/AMCP5556.jpg',
-			'/gamecon-images/competition-models/High-Priestess/AMCP5558.jpg',
-		],
-	},
-	{
-		name: 'Nameless Hero',
-		category: 'competition-models',
-		images: [
-			'/gamecon-images/competition-models/Nameless-Hero/AMCP7753.jpg',
-			'/gamecon-images/competition-models/Nameless-Hero/AMCP7754.jpg',
-			'/gamecon-images/competition-models/Nameless-Hero/AMCP7755.jpg',
-			'/gamecon-images/competition-models/Nameless-Hero/AMCP7756.jpg',
-			'/gamecon-images/competition-models/Nameless-Hero/AMCP7757.jpg',
-			'/gamecon-images/competition-models/Nameless-Hero/AMCP7773.jpg',
 		],
 	},
 	{
@@ -168,6 +168,19 @@ export const ALL_SETS: ImageSet[] = [
 
 	// ── Display Models ──────────────────────────────────────────────────────────
 	{
+		name: 'Link',
+		category: 'display-models',
+		price: 150,
+		images: [
+			'/gamecon-images/display-models/Link/AMCP2150.jpg',
+			'/gamecon-images/display-models/Link/AMCP2151.jpg',
+			'/gamecon-images/display-models/Link/AMCP2152.jpg',
+			'/gamecon-images/display-models/Link/AMCP2153.jpg',
+			'/gamecon-images/display-models/Link/AMCP2154.jpg',
+			'/gamecon-images/display-models/Link/AMCP2155.jpg',
+		],
+	},
+	{
 		name: '2B',
 		category: 'display-models',
 		price: 150,
@@ -178,27 +191,6 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/display-models/2B/AMCP1848.jpg',
 			'/gamecon-images/display-models/2B/AMCP1855.jpg',
 			'/gamecon-images/display-models/2B/AMCP1859.jpg',
-		],
-	},
-	{
-		name: 'Aloy',
-		category: 'display-models',
-		price: 100,
-		images: [
-			'/gamecon-images/display-models/Aloy/AMCP3411.jpg',
-			'/gamecon-images/display-models/Aloy/AMCP3412.jpg',
-		],
-	},
-	{
-		name: 'Booette',
-		category: 'display-models',
-		price: 80,
-		images: [
-			'/gamecon-images/display-models/booette/AMCP7297.jpg',
-			'/gamecon-images/display-models/booette/AMCP7299.jpg',
-			'/gamecon-images/display-models/booette/AMCP7300.jpg',
-			'/gamecon-images/display-models/booette/AMCP7303.jpg',
-			'/gamecon-images/display-models/booette/AMCP7308.jpg',
 		],
 	},
 	{
@@ -235,6 +227,27 @@ export const ALL_SETS: ImageSet[] = [
 		],
 	},
 	{
+		name: 'Booette',
+		category: 'display-models',
+		price: 80,
+		images: [
+			'/gamecon-images/display-models/booette/AMCP7297.jpg',
+			'/gamecon-images/display-models/booette/AMCP7299.jpg',
+			'/gamecon-images/display-models/booette/AMCP7300.jpg',
+			'/gamecon-images/display-models/booette/AMCP7303.jpg',
+			'/gamecon-images/display-models/booette/AMCP7308.jpg',
+		],
+	},
+	{
+		name: 'Aloy',
+		category: 'display-models',
+		price: 100,
+		images: [
+			'/gamecon-images/display-models/Aloy/AMCP3411.jpg',
+			'/gamecon-images/display-models/Aloy/AMCP3412.jpg',
+		],
+	},
+	{
 		name: 'Leafeon',
 		category: 'display-models',
 		sold: true,
@@ -242,19 +255,6 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/display-models/Leafeon/AMCP6241-Enhanced-NR.jpg',
 			'/gamecon-images/display-models/Leafeon/AMCP6238-Enhanced-NR.jpg',
 			'/gamecon-images/display-models/Leafeon/AMCP6239-Enhanced-NR.jpg',
-		],
-	},
-	{
-		name: 'Link',
-		category: 'display-models',
-		price: 150,
-		images: [
-			'/gamecon-images/display-models/Link/AMCP2150.jpg',
-			'/gamecon-images/display-models/Link/AMCP2151.jpg',
-			'/gamecon-images/display-models/Link/AMCP2152.jpg',
-			'/gamecon-images/display-models/Link/AMCP2153.jpg',
-			'/gamecon-images/display-models/Link/AMCP2154.jpg',
-			'/gamecon-images/display-models/Link/AMCP2155.jpg',
 		],
 	},
 	{
@@ -273,6 +273,16 @@ export const ALL_SETS: ImageSet[] = [
 
 	// ── D&D Minis ───────────────────────────────────────────────────────────────
 	{
+		name: 'KDM Ranger',
+		category: 'dnd-minis',
+		price: 75,
+		images: [
+			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3399.jpg',
+			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3400.jpg',
+			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3401.jpg',
+		],
+	},
+	{
 		name: 'Android Monk',
 		category: 'dnd-minis',
 		price: 75,
@@ -281,6 +291,64 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/dnd-minis/Android Monk/AMCP3403.jpg',
 			'/gamecon-images/dnd-minis/Android Monk/AMCP3404.jpg',
 			'/gamecon-images/dnd-minis/Android Monk/AMCP3405.jpg',
+		],
+	},
+	{
+		name: 'Human Sorceress',
+		category: 'dnd-minis',
+		price: 75,
+		images: [
+			'/gamecon-images/dnd-minis/Human Sorceress/AMCP3339-2.jpg',
+			'/gamecon-images/dnd-minis/Human Sorceress/AMCP3340-2.jpg',
+		],
+	},
+	{
+		name: 'Human Animist',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Human Animist/AMCP3366.jpg',
+			'/gamecon-images/dnd-minis/Human Animist/AMCP3367.jpg',
+		],
+	},
+	{
+		name: 'Gnome Summoner',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Gnome Summoner/AMCP3075.jpg',
+			'/gamecon-images/dnd-minis/Gnome Summoner/AMCP3076.jpg',
+		],
+	},
+	{
+		name: 'Orc Warpriest',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3064.jpg',
+			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3065.jpg',
+			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3066.jpg',
+		],
+	},
+	{
+		name: 'Elf Psychic',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Elf Psychic/AMCP3332.jpg',
+			'/gamecon-images/dnd-minis/Elf Psychic/AMCP3333.jpg',
+		],
+	},
+	{
+		name: 'Elf Rogue',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Elf Rogue/AMCP3337-2.jpg',
+			'/gamecon-images/dnd-minis/Elf Rogue/AMCP3338-2.jpg',
+		],
+	},
+	{
+		name: 'Human Witch',
+		category: 'dnd-minis',
+		images: [
+			'/gamecon-images/dnd-minis/Human Witch/AMCP3343.jpg',
+			'/gamecon-images/dnd-minis/Human Witch/AMCP3344.jpg',
 		],
 	},
 	{
@@ -311,30 +379,6 @@ export const ALL_SETS: ImageSet[] = [
 		],
 	},
 	{
-		name: 'Elf Psychic',
-		category: 'dnd-minis',
-		images: [
-			'/gamecon-images/dnd-minis/Elf Psychic/AMCP3332.jpg',
-			'/gamecon-images/dnd-minis/Elf Psychic/AMCP3333.jpg',
-		],
-	},
-	{
-		name: 'Elf Rogue',
-		category: 'dnd-minis',
-		images: [
-			'/gamecon-images/dnd-minis/Elf Rogue/AMCP3337.jpg',
-			'/gamecon-images/dnd-minis/Elf Rogue/AMCP3338.jpg',
-		],
-	},
-	{
-		name: 'Gnome Summoner',
-		category: 'dnd-minis',
-		images: [
-			'/gamecon-images/dnd-minis/Gnome Summoner/AMCP3075.jpg',
-			'/gamecon-images/dnd-minis/Gnome Summoner/AMCP3076.jpg',
-		],
-	},
-	{
 		name: 'Half-Orc Inventor',
 		category: 'dnd-minis',
 		images: [
@@ -356,14 +400,6 @@ export const ALL_SETS: ImageSet[] = [
 		images: [
 			'/gamecon-images/dnd-minis/Half-Orc Ranger Vindicator/AMCP3362.jpg',
 			'/gamecon-images/dnd-minis/Half-Orc Ranger Vindicator/AMCP3363.jpg',
-		],
-	},
-	{
-		name: 'Human Animist',
-		category: 'dnd-minis',
-		images: [
-			'/gamecon-images/dnd-minis/Human Animist/AMCP3366.jpg',
-			'/gamecon-images/dnd-minis/Human Animist/AMCP3367.jpg',
 		],
 	},
 	{
@@ -399,15 +435,6 @@ export const ALL_SETS: ImageSet[] = [
 		],
 	},
 	{
-		name: 'Human Sorceress',
-		category: 'dnd-minis',
-		price: 75,
-		images: [
-			'/gamecon-images/dnd-minis/Human Sorceress/AMCP3339.jpg',
-			'/gamecon-images/dnd-minis/Human Sorceress/AMCP3340.jpg',
-		],
-	},
-	{
 		name: 'Human Summoner',
 		category: 'dnd-minis',
 		images: [
@@ -415,14 +442,6 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/dnd-minis/Human Summoner/AMCP3069.jpg',
 			'/gamecon-images/dnd-minis/Human Summoner/AMCP3070.jpg',
 			'/gamecon-images/dnd-minis/Human Summoner/AMCP3071.jpg',
-		],
-	},
-	{
-		name: 'Human Witch',
-		category: 'dnd-minis',
-		images: [
-			'/gamecon-images/dnd-minis/Human Witch/AMCP3343.jpg',
-			'/gamecon-images/dnd-minis/Human Witch/AMCP3344.jpg',
 		],
 	},
 	{
@@ -437,16 +456,6 @@ export const ALL_SETS: ImageSet[] = [
 		],
 	},
 	{
-		name: 'KDM Ranger',
-		category: 'dnd-minis',
-		price: 75,
-		images: [
-			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3399.jpg',
-			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3400.jpg',
-			'/gamecon-images/dnd-minis/KDM Ranger/AMCP3401.jpg',
-		],
-	},
-	{
 		name: 'Orc Shamman',
 		category: 'dnd-minis',
 		images: [
@@ -455,15 +464,6 @@ export const ALL_SETS: ImageSet[] = [
 			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5490.jpg',
 			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5492.jpg',
 			'/gamecon-images/dnd-minis/Orc Shamman/AMCP5497.jpg',
-		],
-	},
-	{
-		name: 'Orc Warpriest',
-		category: 'dnd-minis',
-		images: [
-			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3064.jpg',
-			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3065.jpg',
-			'/gamecon-images/dnd-minis/Orc Warpriest/AMCP3066.jpg',
 		],
 	},
 	{
