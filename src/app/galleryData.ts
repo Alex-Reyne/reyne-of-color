@@ -182,6 +182,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Lamp Master',
 		category: 'display-models',
+		price: 150,
 		images: [
 			'/gamecon-images/display-models/LampMaster/AMCP3056.jpg',
 			'/gamecon-images/display-models/LampMaster/AMCP3057.jpg',
