@@ -183,6 +183,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Aloy',
 		category: 'display-models',
+		price: 100,
 		images: [
 			'/gamecon-images/display-models/Aloy/AMCP3411.jpg',
 			'/gamecon-images/display-models/Aloy/AMCP3412.jpg',
@@ -203,6 +204,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Ghost Captain',
 		category: 'display-models',
+		price: 150,
 		images: [
 			'/gamecon-images/display-models/Ghost Captain/AMCP3409.jpg',
 			'/gamecon-images/display-models/Ghost Captain/AMCP3410.jpg',
