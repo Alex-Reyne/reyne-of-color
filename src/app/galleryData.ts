@@ -136,6 +136,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Firekeeper',
 		category: 'dark-souls',
+		sold: true,
 		images: [
 			'/gamecon-images/dark-souls/Firekeeper/AMCP6242.jpg',
 			'/gamecon-images/dark-souls/Firekeeper/AMCP6243.jpg',
