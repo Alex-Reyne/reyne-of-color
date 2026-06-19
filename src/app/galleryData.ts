@@ -24,7 +24,7 @@ export const CATEGORIES: Category[] = [
 	{key: 'dark-souls', label: 'Dark Souls', price: 80},
 	{key: 'display-models', label: 'Display Models', price: 200},
 	{key: 'dnd-minis', label: 'D&D Minis', price: 50},
-	{key: 'keycaps', label: 'Keycaps', price: 50},
+	{key: 'keycaps', label: 'Keycaps', price: 75},
 ];
 
 /** Returns the effective display price for a set (model override → category default → undefined). */
