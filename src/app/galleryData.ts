@@ -100,6 +100,7 @@ export const ALL_SETS: ImageSet[] = [
 		name: 'Ork Commando',
 		category: 'competition-models',
 		price: 100,
+		sold: true,
 		images: [
 			'/gamecon-images/competition-models/Ork-Commando/AMCP6283.jpg',
 			'/gamecon-images/competition-models/Ork-Commando/AMCP6286.jpg',
@@ -339,6 +340,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Elf Rogue',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Elf Rogue/AMCP3337-2.jpg',
 			'/gamecon-images/dnd-minis/Elf Rogue/AMCP3338-2.jpg',
@@ -347,6 +349,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Human Witch',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Human Witch/AMCP3343.jpg',
 			'/gamecon-images/dnd-minis/Human Witch/AMCP3344.jpg',
@@ -398,6 +401,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Half-Orc Ranger Vindicator',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Half-Orc Ranger Vindicator/AMCP3362.jpg',
 			'/gamecon-images/dnd-minis/Half-Orc Ranger Vindicator/AMCP3363.jpg',
@@ -430,6 +434,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Human Shifter',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Human Shifter/AMCP3368.jpg',
 			'/gamecon-images/dnd-minis/Human Shifter/AMCP3369.jpg',
