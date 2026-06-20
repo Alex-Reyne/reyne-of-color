@@ -410,6 +410,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Human Barbarian',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Human Barbarian/AMCP3328.jpg',
 			'/gamecon-images/dnd-minis/Human Barbarian/AMCP3329.jpg',
