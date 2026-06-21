@@ -114,6 +114,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Artorias',
 		category: 'dark-souls',
+		sold: true,
 		images: [
 			'/gamecon-images/dark-souls/Artorias/Artorias 01.jpg',
 			'/gamecon-images/dark-souls/Artorias/Artorias 02.jpg',
@@ -126,6 +127,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Blaidd',
 		category: 'dark-souls',
+		sold: true,
 		images: [
 			'/gamecon-images/dark-souls/Blaidd/AMCP8813.jpg',
 			'/gamecon-images/dark-souls/Blaidd/AMCP8814.jpg',
@@ -148,6 +150,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Malenia',
 		category: 'dark-souls',
+		sold: true,
 		images: [
 			'/gamecon-images/dark-souls/Malenia/AMCP3425.jpg',
 			'/gamecon-images/dark-souls/Malenia/AMCP3426.jpg',
@@ -160,6 +163,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Solaire',
 		category: 'dark-souls',
+		sold: true,
 		price: 50,
 		images: [
 			'/gamecon-images/dark-souls/Solaire/AMCP6246.jpg',
@@ -220,6 +224,7 @@ export const ALL_SETS: ImageSet[] = [
 		name: 'Lamp Master',
 		category: 'display-models',
 		price: 150,
+		sold: true,
 		images: [
 			'/gamecon-images/display-models/LampMaster/AMCP3056.jpg',
 			'/gamecon-images/display-models/LampMaster/AMCP3057.jpg',
@@ -244,6 +249,7 @@ export const ALL_SETS: ImageSet[] = [
 		name: 'Aloy',
 		category: 'display-models',
 		price: 100,
+		sold: true,
 		images: [
 			'/gamecon-images/display-models/Aloy/AMCP3411.jpg',
 			'/gamecon-images/display-models/Aloy/AMCP3412.jpg',
