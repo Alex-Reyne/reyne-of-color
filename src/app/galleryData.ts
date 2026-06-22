@@ -383,6 +383,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Dwarf Ranger',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Dwarf Ranger/AMCP3326.jpg',
 			'/gamecon-images/dnd-minis/Dwarf Ranger/AMCP3327.jpg',
@@ -399,6 +400,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Half-Elf Magus',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Half-Elf Magus/AMCP3360.jpg',
 			'/gamecon-images/dnd-minis/Half-Elf Magus/AMCP3361.jpg',
@@ -482,6 +484,7 @@ export const ALL_SETS: ImageSet[] = [
 	{
 		name: 'Tengu Oracle',
 		category: 'dnd-minis',
+		sold: true,
 		images: [
 			'/gamecon-images/dnd-minis/Tengu Oracle/AMCP3335.jpg',
 			'/gamecon-images/dnd-minis/Tengu Oracle/AMCP3336.jpg',
